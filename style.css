@@ -1,12 +1,13 @@
 /*#E9E3DF #FF7A30 #465C88 #000000
 * CSS Document */
 @charset "UTF-8";
+
 /* Color Scheme : #E9E3DF #FF7A30 #465C88 #000000/
 /* The body tag style applies to all elements on the page*/
 body {
     background: #1B262C;
-    font-family:"SUSE Mono", sans-serif;
-    font-style:bold;
+    font-family: "SUSE Mono", sans-serif;
+    font-style: bold;
     color: #3282B8;
 }
 
@@ -19,7 +20,7 @@ header {
     list-style-type: none;
     background-color: #0F4C75;
     border-radius: 100px;
-    border-style:inset;
+    border-style: inset;
     padding-top: 5px;
     margin: 0px;
     overflow: hidden;
@@ -34,7 +35,7 @@ header {
     padding: 20px 80px;
     text-decoration: none;
     font-size: 25px;
-    display: block;   
+    display: block;
     text-align: center;
     border: 2px;
     border-radius: 50px;
@@ -44,15 +45,15 @@ header {
     float: right;
 }
 
-.navbar .contact a  {
+.navbar .contact a {
     color: #f2f2f2;
     padding: 20px 80px;
     text-decoration: none;
     font-size: 20px;
-    display: block;   
+    display: block;
     text-align: right;
     border-style: inset;
-    background-color:#1B262C;
+    background-color: #1B262C;
     border: 2px solid #ffffff;
     border-radius: 999px;
     margin: 5px 10px 10px;
@@ -60,11 +61,11 @@ header {
 
 .navbar img {
     height: 60px;
-    width: auto;   
+    width: auto;
     display: block;
     padding: 0px 0px;
     margin: 9px;
-    border-radius: 50px; 
+    border-radius: 50px;
 }
 
 .navbar a:hover {
@@ -79,46 +80,47 @@ header {
     border: 2px solid #ffffff;
 }
 
-.left-column{
-    float: left; 
-    width: 55%;
+.left-column {
+    float: left;
+    width: 50%;
 }
 
-.right-column{
-    float:right;
-    width: 40%;
-    text-align: center;
+.right-column {
+    float: right;
+    width: 50%;
+    
 }
 
 
-h1{
-    margin-top: 5%;
-    margin-left: 20%;
+h1 {
+    margin-top: 15%;
+    margin-left: 28%;
     margin-right: 4%;
     font-family: "Zalando Sans Expanded", sans-serif;
     color: white;
-    font-size: 40px;
+    font-size:  30px;
     border-radius: 40px;
     padding: 15px;
     border-color: #3282B8;
     border-style: outset;
-    overflow:auto;
+    max-width: fit-content;
 }
 
 .right-column img {
     width: 450px;
-    height: 600px;
+    height: 575px;
     border-radius: 50px;
-    border: 5px solid #BBE1FA;    
+    border: 5px solid #BBE1FA;
     margin-top: 5%;
+    margin-left:30% ;
 }
 
 .left-column p {
     color: #BBE1FA;
     font-size: small;
     text-align: center;
-    margin-left: 30%;
-    margin-right: 20%;
+    margin-left: 20%;
+    margin-right: 0%;
     font-size: 100%;
     line-height: 150%;
     padding: 10px;
@@ -126,8 +128,109 @@ h1{
 }
 
 .left-column img {
-    height: 60px;
-    margin-left: 30%;
-    margin-top: 9%;
+    height: 50px;
+    padding: 0px;
     overflow: auto;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 20%;
+}
+
+.social-links a {
+    /* Make the link tags behave like elements that can sit side-by-side */
+    display: inline-block;
+    /* Add horizontal spacing between the icons */
+    margin: 0 8px;
+}
+
+
+.lets-talk-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #BBE1FA;
+    color: #1B262C;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: 'SUSE Mono', monospace;
+    overflow: auto;
+    margin-left: 50%;
+
+}
+
+.lets-talk-btn:hover {
+    background-color: #3282B8;
+    color: #BBE1FA;
+    transform: translateY(-5px);
+}
+
+.icon-container{
+    padding: 0px;
+    font-size: 30%;
+    transform: translateX(9%);
+    font-weight: bold;
+    
+   
+    
+    
+}
+
+.skill-icons {
+    vertical-align:middle;
+    padding: 0px;
+}
+
+.light-icons{
+    padding: 15px 15px;
+    background-color: #3282B8;
+    color: #BBE1FA;
+    border-style:solid;
+    border-radius: 50px;
+    max-width: fit-content;
+    transform: scale(20%);
+    font-size: 300%;
+    display: inline;
+    font-weight: 300%;
+    margin-left: 19%;
+    
+
+}
+
+.dark-icons{
+    
+    padding: 15px 15px;
+    background-color:#BBE1FA;
+    border-style: solid;
+    border-radius: 50px;
+    max-width: max-content;
+    transform: scale(20%);
+    font-size: 300%;
+    display: inline;
+    font-style: bold;
+    margin-left: 2%;
+    margin-block: 10%;
+    margin-inline: 2%;
+    
+}
+
+h2 {
+    font-size: 100px;
+    font-weight: 300px;
+    font-style: bold;
+}
+
+.skills-title {
+    margin-top: 15%;
+    margin-left: 30%;
+    margin-right: 3%;
+    font-family: "Zalando Sans Expanded", sans-serif;
+    color: white;
+    font-size:  30px;
+    padding: 15px;
+    font-style: bold;
+    text-decoration: underline;
 }
