@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <!--NAVIGATION BAR + SMALL PROFILE PICTURE-->
+                    <li><img src="pfp.jpg" width="5%" height="100%"></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="aboutme.html">About</a></li>
+                    <li class="contact"><a href="contactme.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="form">
+        <h7>CONTACT ME</h7>
+        <form action="mailto:honesty.johnson@ontariotechu.net?subject=Contact Form" enctype="text/plain" method="post"
+            name="Form">
+            <p>
+                <label for="name"> Full name :</label>
+                <input type="text" name="name" size="40" 
+                placeholder="Enter your full name" required>
+            </p>
+            <p>
+                <label for="email">Email :</label>
+                <input type="email" name="email" size="40"
+                placeholder="Enter your email address" required>
+            </p>
+            <p>
+                <label for="number">Phone Number(optional) :</label>
+                <input type="tel" name="number" 
+                placeholder="Enter your phone number" size="40">
+            </p>
+            <p>
+                <label for="message">Message :</label>
+                <textarea name="message" cols="60" rows="8" 
+                placeholder="Enter your message" required></textarea>
+            </p>
+            <br>
+            <input type="reset" value="reset">
+            <input type="submit" value="Submit">
+
+        </form>
+        </div>
+    </div>
+</body>
+</head>
+
+</html>
