@@ -1,0 +1,78 @@
+@media only screen and (max-width: 480px) {
+    .left-column,
+    .right-column {
+        width: 100%;  
+        float: none;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 1.2em;
+        margin: 15px auto;
+        padding: 10px;
+    }
+
+    .left-column p {
+        font-size: 0.9em;
+        margin: 10px;
+    }
+
+    .right-column img {
+        width: 85%;
+        margin: 15px auto;
+    }
+
+    .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar li {
+        float: none;     
+        width: 100%;
+    }
+
+    .navbar a {
+        display: block;
+        padding: 12px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .lets-talk-btn {
+        width: 80%;
+        margin: 15px auto;
+        font-size: 1em;
+    }
+    .right-column video {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    .skills-title {
+    margin: 20px auto;
+    font-size: 1.2em;
+    text-align: center;
+    display: block;
+    width: 100%;
+    clear: both;    
+    position: relative;
+    z-index: 2;       
+    }
+
+    .light-icons,
+    .dark-icons {
+    display: block;   
+    margin: 10px auto;
+    font-size: 150%;
+    transform: none;  
+    clear: both;
+    }
+        
+    .right-column video {
+    width: 95%;
+    margin: 15px auto;
+    transform: none;
+}
+}

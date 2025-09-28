@@ -4,10 +4,13 @@
 
 /* Color Scheme : #E9E3DF #FF7A30 #465C88 #000000/
 /* The body tag style applies to all elements on the page*/
+#wrapper {
+    width: 95%;
+    margin: auto;
+}
 body {
     background: #1B262C;
     font-family: "SUSE Mono", sans-serif;
-    font-style: bold;
     color: #3282B8;
 }
 
@@ -107,12 +110,12 @@ h1 {
 }
 
 .right-column img {
-    width: 450px;
-    height: 575px;
+    width: 60%;
+    height: auto;
     border-radius: 50px;
     border: 5px solid #BBE1FA;
-    margin-top: 5%;
-    margin-left:30% ;
+    margin: 5% auto;
+    display: block;
 }
 
 .left-column p {
@@ -142,7 +145,6 @@ h1 {
 .social-links a {
     /* Make the link tags behave like elements that can sit side-by-side */
     display: inline-block;
-    /* Add horizontal spacing between the icons */
     margin: 0 8px;
 }
 
@@ -153,7 +155,6 @@ h1 {
     background-color: #BBE1FA;
     color: #1B262C;
     text-decoration: none;
-    font-weight: bold;
     border-radius: 8px;
     transition: background-color 0.3s ease, transform 0.2s ease;
     font-family: 'SUSE Mono', monospace;
@@ -172,7 +173,6 @@ h1 {
     padding: 0px;
     font-size: 30%;
     transform: translateX(9%);
-    font-weight: bold;
     transform: scale(1.2);
     
 }
@@ -192,7 +192,6 @@ h1 {
     transform: scale(20%);
     font-size: 300%;
     display: inline;
-    font-weight: 300%;
     margin-left: 19%;
     
 
@@ -208,7 +207,6 @@ h1 {
     transform: scale(20%);
     font-size: 300%;
     display: inline;
-    font-style: bold;
     margin-left: 2%;
     margin-block: 10%;
     margin-inline: 2%;
@@ -217,25 +215,22 @@ h1 {
 
 h2 {
     font-size: 100px;
-    font-weight: 300px;
-    font-style: bold;
 }
 
 .skills-title {
     margin-top: 15%;
+    margin-bottom: 5%;
     margin-left: 30%;
     margin-right: 3%;
     font-family: "Zalando Sans Expanded", sans-serif;
     color: white;
     font-size:  30px;
     padding: 15px;
-    font-style: bold;
     text-decoration: underline;
     
 }
 
 .right-column video {
-    float: center;
     margin-top: -70%;
     margin-left: 120%;
     transform: scale(1.7);
@@ -244,7 +239,7 @@ h2 {
 h3 {
     clear: both;
     width: 100%;
-    margin-left: 85%;
+    margin-left: 35%;
     max-width: fit-content;
     border-radius: 50px;
     background: linear-gradient(to right, #1B262C, #0F4C75, #3282B8,#1B262C);
@@ -264,7 +259,7 @@ h3 {
     float: left;
     background-color:#18405a;
     border-radius: 25px;
-    padding-left: 20px 50px;
+    padding-left: 10px;
     border-style: dashed;
     border-width: 1.5px;
     color: white;
@@ -322,14 +317,14 @@ h5 {
 }
 
 
-h7 {
+h6 {
     display: block;
     font-size: 50px; 
     color: #BBE1FA; 
     font-family: 'Zalando Sans Expanded', sans-serif;
     font-weight: 900;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     letter-spacing: 2px;
 }
 
@@ -393,3 +388,16 @@ h7 {
     color: #1B262C;
     transform: translateY(-2px);
 }
+
+
+footer {
+    clear: both;
+    color: #BBE1FA;
+    padding: 20px 0; 
+    width: 100%; 
+    text-align: center; 
+    margin-top: 50px; 
+    font-family: 'SUSE Mono', monospace;
+    font-size: 0.9em;
+}
+

@@ -4,14 +4,21 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" media="only screen and (min-width:961px)">
+    <link rel="stylesheet" href="tablet.css" media="only screen and (min-width:481px) and (max-width:960px)">
+    <link rel="stylesheet" href="phone.css" media="only screen and (max-width:480px)">
 </head>
 
 <body>
@@ -20,7 +27,7 @@
             <nav class="navbar">
                 <ul>
                     <!--NAVIGATION BAR + SMALL PROFILE PICTURE-->
-                    <li><img src="pfp.jpg" width="5%" height="100%"></li>
+                    <li><img src="pfp.jpg" alt="small picture"></li>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="projects.html">Projects</a></li>
                     <li><a href="aboutme.html">About</a></li>
@@ -54,12 +61,14 @@
             </div>
 
             <div class="right-column">
-                <img src="gradpic.jpg">
+                <img src="gradpic.jpg" alt="graduation picture">
             </div>
         </header>
         <footer>
-
+            <p>&copy; 2025 Honesty Johnson. All Rights Reserved.</p>
+            <p>honesty.johnson@ontariotechu.net</p>
         </footer>
+    </div>
 </body>
 
 </html>
